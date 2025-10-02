@@ -1,0 +1,134 @@
+$date
+	Thu Oct 02 15:43:39 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module baby_soc_tb $end
+$var wire 4 ! ALU_Result [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 4 $ Read2 [3:0] $end
+$var wire 4 % Read1 [3:0] $end
+$var wire 4 & PC_Out [3:0] $end
+$var wire 4 ' ALU_Result [3:0] $end
+$scope module PC $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var reg 4 ( PC [3:0] $end
+$upscope $end
+$scope module RF $end
+$var wire 4 ) ReadData1 [3:0] $end
+$var wire 4 * ReadData2 [3:0] $end
+$var wire 2 + ReadReg1 [1:0] $end
+$var wire 2 , ReadReg2 [1:0] $end
+$var wire 1 - RegWrite $end
+$var wire 2 . WriteReg [1:0] $end
+$var wire 1 " clk $end
+$var wire 4 / WriteData [3:0] $end
+$upscope $end
+$scope module alu $end
+$var wire 4 0 A [3:0] $end
+$var wire 3 1 ALU_Sel [2:0] $end
+$var wire 4 2 B [3:0] $end
+$var reg 4 3 ALU_Out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 3
+bx 2
+b0 1
+bx 0
+bx /
+b10 .
+1-
+b1 ,
+b0 +
+bx *
+bx )
+b0 (
+bx '
+b0 &
+bx %
+bx $
+1#
+0"
+bx !
+$end
+#5000
+1"
+#10000
+0"
+0#
+#15000
+b1 &
+b1 (
+1"
+#20000
+0"
+#25000
+b10 &
+b10 (
+1"
+#30000
+0"
+#35000
+b11 &
+b11 (
+1"
+#40000
+0"
+#45000
+b100 &
+b100 (
+1"
+#50000
+0"
+#55000
+b101 &
+b101 (
+1"
+#60000
+0"
+#65000
+b110 &
+b110 (
+1"
+#70000
+0"
+#75000
+b111 &
+b111 (
+1"
+#80000
+0"
+#85000
+b1000 &
+b1000 (
+1"
+#90000
+0"
+#95000
+b1001 &
+b1001 (
+1"
+#100000
+0"
+#105000
+b1010 &
+b1010 (
+1"
+#110000
+0"
