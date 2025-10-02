@@ -1,4 +1,4 @@
-1. What is a System-on-Chip (SoC)?
+## 1. What is a System-on-Chip (SoC)?
 
 A System-on-Chip (SoC) is an integrated circuit that combines the main components of a complete computer system into a single chip.
 It integrates:
@@ -13,7 +13,7 @@ Interconnect/Bus – connects CPU, memory, and peripherals
 
 SoCs are widely used in smartphones, IoT devices, automotive systems, and embedded products because they reduce power, area, and cost.
 
-2. Components of a Typical SoC
+## 2. Components of a Typical SoC
 
 CPU (Central Processing Unit): Brain of the system, handles computation and control.
 
@@ -27,7 +27,7 @@ A simple block diagram of an SoC looks like this:
 
 ![SoC Block Diagram](Images/SoC-Block-Diagram.png)
 
-1. Why BabySoC?
+## 3. Why BabySoC?
 
 The BabySoC is a simplified SoC model designed for learning.
 
@@ -39,7 +39,7 @@ Helps students understand the fundamental concepts of SoC design without being o
 
 Thus, BabySoC acts as a teaching SoC for beginners.
 
-4. Role of Functional Modelling
+## 4. Role of Functional Modelling
 
 Before going to RTL design and physical design, it is important to check functionality at a high level.
 
@@ -51,7 +51,7 @@ Helps detect design flaws early, saving time and cost.
 
 Performed using tools like Icarus Verilog (for simulation) and GTKWave (for waveform visualization).
 
-5. Conclusion
+### 5. Conclusion
 
 A System-on-Chip is a compact, integrated computer system on a single chip.
 
