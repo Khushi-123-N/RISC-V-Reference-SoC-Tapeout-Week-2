@@ -51,7 +51,7 @@ Helps detect design flaws early, saving time and cost.
 
 Performed using tools like Icarus Verilog (for simulation) and GTKWave (for waveform visualization).
 
-### 5. Conclusion
+## 5. Conclusion
 
 A System-on-Chip is a compact, integrated computer system on a single chip.
 
